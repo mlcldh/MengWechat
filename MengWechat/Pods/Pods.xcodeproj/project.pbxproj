@@ -1,0 +1,1110 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067D10BA1984BA3497E9211A65FC2048 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A958154F65E15305A58BCF776E9F2C3 /* MASConstraintMaker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0A56278E13BBFE8F34B8DFE9548F7A48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		0BFF8375B76DBBC26E6737A484237EF7 /* LCHeheViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9394A22145A3951CA6D952396144925F /* LCHeheViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F41953E5885862018EDE0266D8DA80D /* BabyPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC5B3AED960995B54F7FDA93BD9E245 /* BabyPeripheralManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0F8A8E0D6FAEBF758E0B4D620335F094 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 378FCC337524DDD953035F6405266007 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		174C2322239A2DF7CEA77E62C1D5E5BD /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F82644BCBEF78D33DDDCE5771CF19785 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1A9CB69AA245B129590CAF6232526E2F /* BabyRhythm.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DCE655DC069C83CDBDFAD04C40FE4E /* BabyRhythm.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1B2F3D8DDFDA028A5FBF9D9571A59F20 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C232A8514A7783E37B5E37932847D4 /* MASConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		222668CE11D5B40867A7290751FB672D /* BabyCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 697B9EFDACEE47B4B6818B8962A9CA2B /* BabyCentralManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2905381350CEFFBFFA9BC8B5D027F190 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = EA591C20888428381D4373239A1CF12C /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2979E54C4AFD27076576E82ADEED2F00 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 05F9F6C9E32C4816E93EE8CA1E8F46C3 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B0898688238573F1C145D5434FC3854 /* BabyBluetooth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69297D9DC2412C05A1743018F0CD3649 /* BabyBluetooth-dummy.m */; };
+		2FD535761BCF7EF1B7B77D4A765AD7C6 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = D22ED92FEA0331A4B8353B12DD0B8F6A /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		313531CEDA0294311D87B4F4C3F073F4 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 0225522D5BCF8B128BE09AF1659CB93C /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		331718BFB4A91CFFE026492905231562 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 221467421F0A1ACD4D87EB367535B10F /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39E63D43B08240020B7E3D8407DA319D /* BabyToy.m in Sources */ = {isa = PBXBuildFile; fileRef = D627B64FBF4F6C51E039ED78364C3178 /* BabyToy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3D0F69C4CA35EB6A1F686BA88B19B4F6 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 332070B60A9204639A81A68925CB6152 /* FMDB-dummy.m */; };
+		3F63C119F95A6735AE627BBB1BEBC4B1 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = B37BCAAF272639ECC01F825318E3D7F2 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FE106A8255FE6832D30B96EC0466D90 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F1A9482ADE5ACCF0BBFA5FEB3F9EBF /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		432BD50F1E699EDF2EA007E850FFCEF7 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D1305D63073F66ABA9C188580EA63EB8 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FF8E2D1193DD5C5E02861F16802AEBD /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEEE148FBADC10CC9CD825579695CA4 /* MASLayoutConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		635C6117BA4F7576BC19343A7965A8BD /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB34E679A4BE37EC1F300A16818AA58 /* MASViewAttribute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6E76F757CB499A981AFCAB86BCF4EDCC /* BabyBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D6032C27B25F162AC1DE468046041B /* BabyBluetooth.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6FC6586871A6303509B134E0B50AB287 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 55418992C58F968F327C0737AC19C225 /* View+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		712980BAE00F43D62C7D3B63840D3DF4 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9AA0C94C17A7D16A5788F233D0A39A /* Masonry-dummy.m */; };
+		71B4B31C29150345DDAEAE1C9CCE8F1E /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADBF64E02ABA23196606C3683402324 /* MASViewConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		75F3851FCEED11F06D413B4DE32213CD /* BabyToy.h in Headers */ = {isa = PBXBuildFile; fileRef = E682CF2337DE5EC918B8D3A200BB1364 /* BabyToy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F6A72E919BE8EF6365C227281042383 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		823BCA4BA183709B8EF2A3915A608BF7 /* LCHeheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A55956F16FEE0307F00564F3C9CFB55 /* LCHeheViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		855D2CDD271102CF9DDA2D64E9EDC6D4 /* BabyOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF13D5151BF840E61B3783DB67CD62F /* BabyOptions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8805B7571D8D9CD7841BE503BAEB8D80 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C4F82D87EC0D6BA5DDDA3E3F46C7C0 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8CF69BE02A50F0E039F01FD06144DBAD /* BabySpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC4D024C4863077EAD3239F630C8A05 /* BabySpeaker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9205037BA8C22574B33FC96C5EA829A3 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EB6BAB0022F4425D643D1AA881BCE7CD /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99D8C610BC84BE231C5D3D280F3B12AF /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 97B09C387909A58E7359F970A0FCEAE8 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1A457E0B291E6E60B160A757FFD95CE /* BabyBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A888F09D75D4E8A6F159FA3D8885F19 /* BabyBluetooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A561A67BF274ABC8C70A4FFA23D56C59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		A7B7ED46DB1AFE06EEA276CE63F0BC2C /* BabyOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE39314C149AC54761124C9F40B38BF1 /* BabyOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7D31BD1F3AD4ED4612467FAD332F388 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D4C960C5F7BA05F3DA83C5808EA4AE1 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF2A508B763DDD080725D1C60067431A /* LCHeheViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8353761369DC98F484BA124743EC9417 /* LCHeheViewController-dummy.m */; };
+		AF4E7187E09A5AF3A0758991203153DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		B2B7C90BA9C4DBD9851C75AC801B0E8E /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 53E7D8F20EE29B9AAD31E20B6897387D /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B418C9BDCF8C6BAC2E3942F157BB6D4C /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9344C2EEC227A2FA024007B8C10F4E2C /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA078C2D90AE723D992054A66EC7EB0E /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0136F743BF74BF2B0459DB826FB20B07 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C2C2B0854B535D4D86C138934937C12C /* BabyRhythm.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC46459DD4F361E961069A942D3FFE7 /* BabyRhythm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6EE194D232E9FE87097C0F1DF91B9FA /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A0591901AFC97A7DB553AA46E5897A /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C863F5C0CD241F94DD34E28CAA13AF6D /* BabyCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFBD37E4AC0D8D1CDE3597E61B6B94 /* BabyCallback.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CF2111CFB886241F7020A0B24DA376BE /* BabySpeaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 836E0DE12B90EFFF3FFCC6AF96511887 /* BabySpeaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0C5FF5485EAA2CDA03E9796B407697A /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = C18528AC78E84E5C0E0D132196B61BE7 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0D5FFE53407F16C9CD3D0ECF43ACE93 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = E95484C6BAED3706C00418B839274548 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D33286950C9CB1F933C6829BD2638007 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 00748857ED30159C7042334AB41B8968 /* NSArray+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DCBE5599D5184BC384DF2C2B60FAE896 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = B517B959765F922CD8B9D606E962813B /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DD1F717B0527C71229B3339324E35E55 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9054C82BCBD3BF67DDD99153AB2DBF /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE31B168D9197213CEB7B90E3ADEB4CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		E0AB941C52556A640214FB7024D47C6F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E9C6BA2FFFC61341672431A96B0E0 /* ViewController+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E45F8C849B05B8C7CD2B1EFC3334E503 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		EB02AEF303313F801392DE8D90AFF0F7 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 7059734EEA729AC3979DABD0AB19748C /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC6CCC98505D2067BC98B4E6223C9DF8 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = C600E52713116E8D6CB7CF86C20A608F /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4AA2299205DADFF55B7C602DAF95973 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5902E5AFE66EE400F72C5BB5C365EDFF /* MASCompositeConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F581AB235D0FC7A23F45BBEBEE67BE4C /* BabyCentralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7416A7A647979CF8B2D47A27C64CBEF5 /* BabyCentralManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F82DF3E66723CD04179A60575219FFFB /* Pods-MengWechat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FD326842429056CEBE7E11D3246AF2 /* Pods-MengWechat-dummy.m */; };
+		F977B243321331B58666E9284634101A /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F52387E7557EB38A1DFC7F40C2EF7235 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC897468D280DDE5248F8ED380967BE5 /* BabyCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 856C52A7F3EBB6836BBD57E83B067E9D /* BabyCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD39EBE3398E1A99965AC003B273450D /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DED582412BE716C2A518226D7E37CD0F /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDDC648205792CC8BF8FEC799086E73F /* BabyPeripheralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C99C6849F459DD3C6BE4B6E915A34C06 /* BabyPeripheralManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF682E8B083BAEBBDF38C52D89D45E37 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B27C12D2D045F01F20B64A59B352E4D /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		117FCE9B980270F6FA141B383D1EBC78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53480ED0BE09FF49E34B1702D485CAAB;
+			remoteInfo = Masonry;
+		};
+		1B4FBDD2AF9C687104A50AF296D47550 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F12FB4A63E20F601CFB2E64A65B57C1;
+			remoteInfo = FMDB;
+		};
+		B5D45D7A5D275B5FECC88A0D67C5D12C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53DE7F1037C06F24A9DF419B9090F28C;
+			remoteInfo = BabyBluetooth;
+		};
+		F8419B714694E86295A75BE00E3DADD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3822D063153668F50EE5B6AF9FB5647;
+			remoteInfo = LCHeheViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00748857ED30159C7042334AB41B8968 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		0136F743BF74BF2B0459DB826FB20B07 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		01D94F059E34F16EFC5354AA7334D8CE /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		0225522D5BCF8B128BE09AF1659CB93C /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		05F9F6C9E32C4816E93EE8CA1E8F46C3 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		0B27C12D2D045F01F20B64A59B352E4D /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		18E8C8D8E97F70A79C949FC1A7450DCA /* Pods-MengWechat-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MengWechat-resources.sh"; sourceTree = "<group>"; };
+		1A888F09D75D4E8A6F159FA3D8885F19 /* BabyBluetooth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BabyBluetooth.h; path = Classes/objc/BabyBluetooth.h; sourceTree = "<group>"; };
+		1C831BC3B8E95EBA11C903B298552E35 /* LCHeheViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCHeheViewController.xcconfig; sourceTree = "<group>"; };
+		221467421F0A1ACD4D87EB367535B10F /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		29DCE655DC069C83CDBDFAD04C40FE4E /* BabyRhythm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BabyRhythm.m; path = Classes/objc/BabyRhythm.m; sourceTree = "<group>"; };
+		2A55956F16FEE0307F00564F3C9CFB55 /* LCHeheViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCHeheViewController.m; path = MengPodTest/MengPodTest/LCHeheViewController.m; sourceTree = "<group>"; };
+		2B9054C82BCBD3BF67DDD99153AB2DBF /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		332070B60A9204639A81A68925CB6152 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		35A0591901AFC97A7DB553AA46E5897A /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		378FCC337524DDD953035F6405266007 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		3A1654C93ACCF70BD11D1278CB2A5EA2 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		3A958154F65E15305A58BCF776E9F2C3 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		48EDFB09F2A908EC66427D41C15FC638 /* Pods-MengWechat-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MengWechat-frameworks.sh"; sourceTree = "<group>"; };
+		4C2AA04395BB1F53CA874B918B7EB161 /* libPods-MengWechat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MengWechat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C8E9C6BA2FFFC61341672431A96B0E0 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		4D4C960C5F7BA05F3DA83C5808EA4AE1 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		53E7D8F20EE29B9AAD31E20B6897387D /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		55418992C58F968F327C0737AC19C225 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		5902E5AFE66EE400F72C5BB5C365EDFF /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		69297D9DC2412C05A1743018F0CD3649 /* BabyBluetooth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BabyBluetooth-dummy.m"; sourceTree = "<group>"; };
+		697B9EFDACEE47B4B6818B8962A9CA2B /* BabyCentralManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BabyCentralManager.m; path = Classes/objc/BabyCentralManager.m; sourceTree = "<group>"; };
+		6ADBF64E02ABA23196606C3683402324 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		6EC3B611B20774FF618AA0357E1DB8A4 /* Pods-MengWechat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MengWechat-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7059734EEA729AC3979DABD0AB19748C /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		70D4CEB2A2A6BB87B19B23F091E4AC17 /* LCHeheViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCHeheViewController-prefix.pch"; sourceTree = "<group>"; };
+		714AA4D1A225483ACD9845019CF2C285 /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7416A7A647979CF8B2D47A27C64CBEF5 /* BabyCentralManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BabyCentralManager.h; path = Classes/objc/BabyCentralManager.h; sourceTree = "<group>"; };
+		7BC5B3AED960995B54F7FDA93BD9E245 /* BabyPeripheralManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BabyPeripheralManager.m; path = Classes/objc/BabyPeripheralManager.m; sourceTree = "<group>"; };
+		8353761369DC98F484BA124743EC9417 /* LCHeheViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCHeheViewController-dummy.m"; sourceTree = "<group>"; };
+		836E0DE12B90EFFF3FFCC6AF96511887 /* BabySpeaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BabySpeaker.h; path = Classes/objc/BabySpeaker.h; sourceTree = "<group>"; };
+		856C52A7F3EBB6836BBD57E83B067E9D /* BabyCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BabyCallback.h; path = Classes/objc/BabyCallback.h; sourceTree = "<group>"; };
+		8AB3D14554D824EAF0E21208C0F89D18 /* BabyBluetooth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BabyBluetooth.xcconfig; sourceTree = "<group>"; };
+		8AC46459DD4F361E961069A942D3FFE7 /* BabyRhythm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BabyRhythm.h; path = Classes/objc/BabyRhythm.h; sourceTree = "<group>"; };
+		8AFFBD37E4AC0D8D1CDE3597E61B6B94 /* BabyCallback.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BabyCallback.m; path = Classes/objc/BabyCallback.m; sourceTree = "<group>"; };
+		8FB34E679A4BE37EC1F300A16818AA58 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		90C232A8514A7783E37B5E37932847D4 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		9344C2EEC227A2FA024007B8C10F4E2C /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		9394A22145A3951CA6D952396144925F /* LCHeheViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCHeheViewController.h; path = MengPodTest/MengPodTest/LCHeheViewController.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97B09C387909A58E7359F970A0FCEAE8 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		9DEEE148FBADC10CC9CD825579695CA4 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B37BCAAF272639ECC01F825318E3D7F2 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		B43B7A111C774975A1553A8C9E9620B9 /* Pods-MengWechat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MengWechat.release.xcconfig"; sourceTree = "<group>"; };
+		B517B959765F922CD8B9D606E962813B /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		B8DBAA36881DA3533A3E684F2EB0B809 /* Pods-MengWechat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MengWechat-acknowledgements.plist"; sourceTree = "<group>"; };
+		C18528AC78E84E5C0E0D132196B61BE7 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		C24659DCD24AF4BAAF0993FD4BF4FB5A /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3017B2C33F69758FF5D743E3F66F1F1 /* Pods-MengWechat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MengWechat.debug.xcconfig"; sourceTree = "<group>"; };
+		C600E52713116E8D6CB7CF86C20A608F /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		C7C0340C18FDF272DFC91BEEB340A4A4 /* BabyBluetooth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BabyBluetooth-prefix.pch"; sourceTree = "<group>"; };
+		C8FD326842429056CEBE7E11D3246AF2 /* Pods-MengWechat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MengWechat-dummy.m"; sourceTree = "<group>"; };
+		C99C6849F459DD3C6BE4B6E915A34C06 /* BabyPeripheralManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BabyPeripheralManager.h; path = Classes/objc/BabyPeripheralManager.h; sourceTree = "<group>"; };
+		CAC4D024C4863077EAD3239F630C8A05 /* BabySpeaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BabySpeaker.m; path = Classes/objc/BabySpeaker.m; sourceTree = "<group>"; };
+		D0F1A9482ADE5ACCF0BBFA5FEB3F9EBF /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		D1305D63073F66ABA9C188580EA63EB8 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D22ED92FEA0331A4B8353B12DD0B8F6A /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		D4D6032C27B25F162AC1DE468046041B /* BabyBluetooth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BabyBluetooth.m; path = Classes/objc/BabyBluetooth.m; sourceTree = "<group>"; };
+		D627B64FBF4F6C51E039ED78364C3178 /* BabyToy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BabyToy.m; path = Classes/objc/BabyToy.m; sourceTree = "<group>"; };
+		D7C4F82D87EC0D6BA5DDDA3E3F46C7C0 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		DE9AA0C94C17A7D16A5788F233D0A39A /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		DED582412BE716C2A518226D7E37CD0F /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		E682CF2337DE5EC918B8D3A200BB1364 /* BabyToy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BabyToy.h; path = Classes/objc/BabyToy.h; sourceTree = "<group>"; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E95484C6BAED3706C00418B839274548 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		EA591C20888428381D4373239A1CF12C /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		EB6BAB0022F4425D643D1AA881BCE7CD /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		EDC9FE32CE4914B5FC9F92ABA130BB31 /* libLCHeheViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLCHeheViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE39314C149AC54761124C9F40B38BF1 /* BabyOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BabyOptions.h; path = Classes/objc/BabyOptions.h; sourceTree = "<group>"; };
+		F1A0AF85F9E8C8A9F9024892166CBD13 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		F4C817E2C4F0EBFBFE007FDEC925C154 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		F52387E7557EB38A1DFC7F40C2EF7235 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		F7469DC4CEE5C8A815898581CCED240D /* libBabyBluetooth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBabyBluetooth.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82644BCBEF78D33DDDCE5771CF19785 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		FFF13D5151BF840E61B3783DB67CD62F /* BabyOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BabyOptions.m; path = Classes/objc/BabyOptions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34CF2DE099B3FC9E76FCFADFF9416FBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6A72E919BE8EF6365C227281042383 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AF63084FFE4472EFC6131BD113B13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A561A67BF274ABC8C70A4FFA23D56C59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B146C75F940E09D00CB8054EAC7C961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A56278E13BBFE8F34B8DFE9548F7A48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44DFC1790CE20DC8D3FDB4DAE35753F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45F8C849B05B8C7CD2B1EFC3334E503 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB9E9D9BBDB93399D3C2B91469EC4B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE31B168D9197213CEB7B90E3ADEB4CC /* Foundation.framework in Frameworks */,
+				AF4E7187E09A5AF3A0758991203153DC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F8E76488FEA8D6EC734265E43E88521 /* BabyBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				1A888F09D75D4E8A6F159FA3D8885F19 /* BabyBluetooth.h */,
+				D4D6032C27B25F162AC1DE468046041B /* BabyBluetooth.m */,
+				856C52A7F3EBB6836BBD57E83B067E9D /* BabyCallback.h */,
+				8AFFBD37E4AC0D8D1CDE3597E61B6B94 /* BabyCallback.m */,
+				7416A7A647979CF8B2D47A27C64CBEF5 /* BabyCentralManager.h */,
+				697B9EFDACEE47B4B6818B8962A9CA2B /* BabyCentralManager.m */,
+				EE39314C149AC54761124C9F40B38BF1 /* BabyOptions.h */,
+				FFF13D5151BF840E61B3783DB67CD62F /* BabyOptions.m */,
+				C99C6849F459DD3C6BE4B6E915A34C06 /* BabyPeripheralManager.h */,
+				7BC5B3AED960995B54F7FDA93BD9E245 /* BabyPeripheralManager.m */,
+				8AC46459DD4F361E961069A942D3FFE7 /* BabyRhythm.h */,
+				29DCE655DC069C83CDBDFAD04C40FE4E /* BabyRhythm.m */,
+				836E0DE12B90EFFF3FFCC6AF96511887 /* BabySpeaker.h */,
+				CAC4D024C4863077EAD3239F630C8A05 /* BabySpeaker.m */,
+				E682CF2337DE5EC918B8D3A200BB1364 /* BabyToy.h */,
+				D627B64FBF4F6C51E039ED78364C3178 /* BabyToy.m */,
+				2AFE8168A6152AD433D1FBD078850581 /* Support Files */,
+			);
+			path = BabyBluetooth;
+			sourceTree = "<group>";
+		};
+		2AFE8168A6152AD433D1FBD078850581 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AB3D14554D824EAF0E21208C0F89D18 /* BabyBluetooth.xcconfig */,
+				69297D9DC2412C05A1743018F0CD3649 /* BabyBluetooth-dummy.m */,
+				C7C0340C18FDF272DFC91BEEB340A4A4 /* BabyBluetooth-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BabyBluetooth";
+			sourceTree = "<group>";
+		};
+		3161BD72DC3551A334CBCE3E815148F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C831BC3B8E95EBA11C903B298552E35 /* LCHeheViewController.xcconfig */,
+				8353761369DC98F484BA124743EC9417 /* LCHeheViewController-dummy.m */,
+				70D4CEB2A2A6BB87B19B23F091E4AC17 /* LCHeheViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LCHeheViewController";
+			sourceTree = "<group>";
+		};
+		3DE05F3B63698567E3B2135978367B15 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4C817E2C4F0EBFBFE007FDEC925C154 /* FMDB.xcconfig */,
+				332070B60A9204639A81A68925CB6152 /* FMDB-dummy.m */,
+				3A1654C93ACCF70BD11D1278CB2A5EA2 /* FMDB-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F9DE4B846022AF0A5B5E03C4A42BD25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7469DC4CEE5C8A815898581CCED240D /* libBabyBluetooth.a */,
+				714AA4D1A225483ACD9845019CF2C285 /* libFMDB.a */,
+				EDC9FE32CE4914B5FC9F92ABA130BB31 /* libLCHeheViewController.a */,
+				C24659DCD24AF4BAAF0993FD4BF4FB5A /* libMasonry.a */,
+				4C2AA04395BB1F53CA874B918B7EB161 /* libPods-MengWechat.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60E833536B86B5FACA4BC992A8F81131 /* Pods-MengWechat */ = {
+			isa = PBXGroup;
+			children = (
+				6EC3B611B20774FF618AA0357E1DB8A4 /* Pods-MengWechat-acknowledgements.markdown */,
+				B8DBAA36881DA3533A3E684F2EB0B809 /* Pods-MengWechat-acknowledgements.plist */,
+				C8FD326842429056CEBE7E11D3246AF2 /* Pods-MengWechat-dummy.m */,
+				48EDFB09F2A908EC66427D41C15FC638 /* Pods-MengWechat-frameworks.sh */,
+				18E8C8D8E97F70A79C949FC1A7450DCA /* Pods-MengWechat-resources.sh */,
+				C3017B2C33F69758FF5D743E3F66F1F1 /* Pods-MengWechat.debug.xcconfig */,
+				B43B7A111C774975A1553A8C9E9620B9 /* Pods-MengWechat.release.xcconfig */,
+			);
+			name = "Pods-MengWechat";
+			path = "Target Support Files/Pods-MengWechat";
+			sourceTree = "<group>";
+		};
+		614400C0576A1FC82BF3B0BC846B1FA4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60E833536B86B5FACA4BC992A8F81131 /* Pods-MengWechat */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		62E9C73F755530CB08ED2ED0B83D0DD2 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				DA4D393B89E418AE0615194703FF3687 /* standard */,
+				3DE05F3B63698567E3B2135978367B15 /* Support Files */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		6C4BC9D6B8B1E61C7BFE8C97E9C51BCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F8E76488FEA8D6EC734265E43E88521 /* BabyBluetooth */,
+				62E9C73F755530CB08ED2ED0B83D0DD2 /* FMDB */,
+				DC5E6B2CFECDFCFF506CD51E5F66BE02 /* LCHeheViewController */,
+				C9F6C73F50ABDD0D2DAAEE60A7BF68E1 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				6C4BC9D6B8B1E61C7BFE8C97E9C51BCC /* Pods */,
+				5F9DE4B846022AF0A5B5E03C4A42BD25 /* Products */,
+				614400C0576A1FC82BF3B0BC846B1FA4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D3E7AACD999D8F76B5B7D297CB42D5F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01D94F059E34F16EFC5354AA7334D8CE /* Masonry.xcconfig */,
+				DE9AA0C94C17A7D16A5788F233D0A39A /* Masonry-dummy.m */,
+				F1A0AF85F9E8C8A9F9024892166CBD13 /* Masonry-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		C9F6C73F50ABDD0D2DAAEE60A7BF68E1 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				97B09C387909A58E7359F970A0FCEAE8 /* MASCompositeConstraint.h */,
+				5902E5AFE66EE400F72C5BB5C365EDFF /* MASCompositeConstraint.m */,
+				EA591C20888428381D4373239A1CF12C /* MASConstraint.h */,
+				90C232A8514A7783E37B5E37932847D4 /* MASConstraint.m */,
+				53E7D8F20EE29B9AAD31E20B6897387D /* MASConstraint+Private.h */,
+				C600E52713116E8D6CB7CF86C20A608F /* MASConstraintMaker.h */,
+				3A958154F65E15305A58BCF776E9F2C3 /* MASConstraintMaker.m */,
+				35A0591901AFC97A7DB553AA46E5897A /* MASLayoutConstraint.h */,
+				9DEEE148FBADC10CC9CD825579695CA4 /* MASLayoutConstraint.m */,
+				EB6BAB0022F4425D643D1AA881BCE7CD /* Masonry.h */,
+				0B27C12D2D045F01F20B64A59B352E4D /* MASUtilities.h */,
+				B37BCAAF272639ECC01F825318E3D7F2 /* MASViewAttribute.h */,
+				8FB34E679A4BE37EC1F300A16818AA58 /* MASViewAttribute.m */,
+				7059734EEA729AC3979DABD0AB19748C /* MASViewConstraint.h */,
+				6ADBF64E02ABA23196606C3683402324 /* MASViewConstraint.m */,
+				DED582412BE716C2A518226D7E37CD0F /* NSArray+MASAdditions.h */,
+				00748857ED30159C7042334AB41B8968 /* NSArray+MASAdditions.m */,
+				4D4C960C5F7BA05F3DA83C5808EA4AE1 /* NSArray+MASShorthandAdditions.h */,
+				05F9F6C9E32C4816E93EE8CA1E8F46C3 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				D0F1A9482ADE5ACCF0BBFA5FEB3F9EBF /* NSLayoutConstraint+MASDebugAdditions.m */,
+				2B9054C82BCBD3BF67DDD99153AB2DBF /* View+MASAdditions.h */,
+				55418992C58F968F327C0737AC19C225 /* View+MASAdditions.m */,
+				D1305D63073F66ABA9C188580EA63EB8 /* View+MASShorthandAdditions.h */,
+				221467421F0A1ACD4D87EB367535B10F /* ViewController+MASAdditions.h */,
+				4C8E9C6BA2FFFC61341672431A96B0E0 /* ViewController+MASAdditions.m */,
+				8D3E7AACD999D8F76B5B7D297CB42D5F /* Support Files */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		DA4D393B89E418AE0615194703FF3687 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				E95484C6BAED3706C00418B839274548 /* FMDatabase.h */,
+				B517B959765F922CD8B9D606E962813B /* FMDatabase.m */,
+				9344C2EEC227A2FA024007B8C10F4E2C /* FMDatabaseAdditions.h */,
+				F82644BCBEF78D33DDDCE5771CF19785 /* FMDatabaseAdditions.m */,
+				378FCC337524DDD953035F6405266007 /* FMDatabasePool.h */,
+				D22ED92FEA0331A4B8353B12DD0B8F6A /* FMDatabasePool.m */,
+				C18528AC78E84E5C0E0D132196B61BE7 /* FMDatabaseQueue.h */,
+				0136F743BF74BF2B0459DB826FB20B07 /* FMDatabaseQueue.m */,
+				0225522D5BCF8B128BE09AF1659CB93C /* FMDB.h */,
+				F52387E7557EB38A1DFC7F40C2EF7235 /* FMResultSet.h */,
+				D7C4F82D87EC0D6BA5DDDA3E3F46C7C0 /* FMResultSet.m */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		DC5E6B2CFECDFCFF506CD51E5F66BE02 /* LCHeheViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9394A22145A3951CA6D952396144925F /* LCHeheViewController.h */,
+				2A55956F16FEE0307F00564F3C9CFB55 /* LCHeheViewController.m */,
+				3161BD72DC3551A334CBCE3E815148F0 /* Support Files */,
+			);
+			path = LCHeheViewController;
+			sourceTree = "<group>";
+		};
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		657D857047A6A935B5A2E9BD049194F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D8C610BC84BE231C5D3D280F3B12AF /* MASCompositeConstraint.h in Headers */,
+				B2B7C90BA9C4DBD9851C75AC801B0E8E /* MASConstraint+Private.h in Headers */,
+				2905381350CEFFBFFA9BC8B5D027F190 /* MASConstraint.h in Headers */,
+				EC6CCC98505D2067BC98B4E6223C9DF8 /* MASConstraintMaker.h in Headers */,
+				C6EE194D232E9FE87097C0F1DF91B9FA /* MASLayoutConstraint.h in Headers */,
+				9205037BA8C22574B33FC96C5EA829A3 /* Masonry.h in Headers */,
+				FF682E8B083BAEBBDF38C52D89D45E37 /* MASUtilities.h in Headers */,
+				3F63C119F95A6735AE627BBB1BEBC4B1 /* MASViewAttribute.h in Headers */,
+				EB02AEF303313F801392DE8D90AFF0F7 /* MASViewConstraint.h in Headers */,
+				FD39EBE3398E1A99965AC003B273450D /* NSArray+MASAdditions.h in Headers */,
+				A7D31BD1F3AD4ED4612467FAD332F388 /* NSArray+MASShorthandAdditions.h in Headers */,
+				2979E54C4AFD27076576E82ADEED2F00 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				DD1F717B0527C71229B3339324E35E55 /* View+MASAdditions.h in Headers */,
+				432BD50F1E699EDF2EA007E850FFCEF7 /* View+MASShorthandAdditions.h in Headers */,
+				331718BFB4A91CFFE026492905231562 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2D82357BE4C2A10AB2CD4724B8E654 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D5FFE53407F16C9CD3D0ECF43ACE93 /* FMDatabase.h in Headers */,
+				B418C9BDCF8C6BAC2E3942F157BB6D4C /* FMDatabaseAdditions.h in Headers */,
+				0F8A8E0D6FAEBF758E0B4D620335F094 /* FMDatabasePool.h in Headers */,
+				D0C5FF5485EAA2CDA03E9796B407697A /* FMDatabaseQueue.h in Headers */,
+				313531CEDA0294311D87B4F4C3F073F4 /* FMDB.h in Headers */,
+				F977B243321331B58666E9284634101A /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E81850F3505ECC50EBA6FF8D5D0AE7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A457E0B291E6E60B160A757FFD95CE /* BabyBluetooth.h in Headers */,
+				FC897468D280DDE5248F8ED380967BE5 /* BabyCallback.h in Headers */,
+				F581AB235D0FC7A23F45BBEBEE67BE4C /* BabyCentralManager.h in Headers */,
+				A7B7ED46DB1AFE06EEA276CE63F0BC2C /* BabyOptions.h in Headers */,
+				FDDC648205792CC8BF8FEC799086E73F /* BabyPeripheralManager.h in Headers */,
+				C2C2B0854B535D4D86C138934937C12C /* BabyRhythm.h in Headers */,
+				CF2111CFB886241F7020A0B24DA376BE /* BabySpeaker.h in Headers */,
+				75F3851FCEED11F06D413B4DE32213CD /* BabyToy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7CC71543B2DFC46B98E299E2B658DC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BFF8375B76DBBC26E6737A484237EF7 /* LCHeheViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53480ED0BE09FF49E34B1702D485CAAB /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6653DB75D219E078020C341A7D83ECE /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				BF5A9E7C1BAD1634608A9C22251F3B36 /* Sources */,
+				FAB9E9D9BBDB93399D3C2B91469EC4B6 /* Frameworks */,
+				657D857047A6A935B5A2E9BD049194F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = C24659DCD24AF4BAAF0993FD4BF4FB5A /* libMasonry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		53DE7F1037C06F24A9DF419B9090F28C /* BabyBluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C0ACB16D69688779B3B7BA06841D984 /* Build configuration list for PBXNativeTarget "BabyBluetooth" */;
+			buildPhases = (
+				C360F584B315C2E19EB145BED4C87E50 /* Sources */,
+				9B146C75F940E09D00CB8054EAC7C961 /* Frameworks */,
+				9E81850F3505ECC50EBA6FF8D5D0AE7E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyBluetooth;
+			productName = BabyBluetooth;
+			productReference = F7469DC4CEE5C8A815898581CCED240D /* libBabyBluetooth.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9F12FB4A63E20F601CFB2E64A65B57C1 /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC899FD215914230EB9D8B57AD910D0 /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				050B66E154969A68944942A22BD9B314 /* Sources */,
+				84AF63084FFE4472EFC6131BD113B13D /* Frameworks */,
+				8B2D82357BE4C2A10AB2CD4724B8E654 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = 714AA4D1A225483ACD9845019CF2C285 /* libFMDB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BE41E421E3838263544EBA102916190F /* Pods-MengWechat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54AF0FCD658225B8C7FC465CB2857FA /* Build configuration list for PBXNativeTarget "Pods-MengWechat" */;
+			buildPhases = (
+				7B0A77A098E7F498D2EF9F98B34AE64A /* Sources */,
+				D44DFC1790CE20DC8D3FDB4DAE35753F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26D4C9D0CAAA62A6D9456CB48AA7BBFF /* PBXTargetDependency */,
+				7EAD37D82344D5BAB72210858B648149 /* PBXTargetDependency */,
+				590B88263ADE3107460F9DEFD632771F /* PBXTargetDependency */,
+				7B148C41954A8D4946F2D7B07EE24194 /* PBXTargetDependency */,
+			);
+			name = "Pods-MengWechat";
+			productName = "Pods-MengWechat";
+			productReference = 4C2AA04395BB1F53CA874B918B7EB161 /* libPods-MengWechat.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C3822D063153668F50EE5B6AF9FB5647 /* LCHeheViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60E144B73CBA3D652EE75BC0D9A454AE /* Build configuration list for PBXNativeTarget "LCHeheViewController" */;
+			buildPhases = (
+				289D13372DFCD093D43D637298DFC569 /* Sources */,
+				34CF2DE099B3FC9E76FCFADFF9416FBB /* Frameworks */,
+				B7CC71543B2DFC46B98E299E2B658DC5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCHeheViewController;
+			productName = LCHeheViewController;
+			productReference = EDC9FE32CE4914B5FC9F92ABA130BB31 /* libLCHeheViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5F9DE4B846022AF0A5B5E03C4A42BD25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53DE7F1037C06F24A9DF419B9090F28C /* BabyBluetooth */,
+				9F12FB4A63E20F601CFB2E64A65B57C1 /* FMDB */,
+				C3822D063153668F50EE5B6AF9FB5647 /* LCHeheViewController */,
+				53480ED0BE09FF49E34B1702D485CAAB /* Masonry */,
+				BE41E421E3838263544EBA102916190F /* Pods-MengWechat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		050B66E154969A68944942A22BD9B314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBE5599D5184BC384DF2C2B60FAE896 /* FMDatabase.m in Sources */,
+				174C2322239A2DF7CEA77E62C1D5E5BD /* FMDatabaseAdditions.m in Sources */,
+				2FD535761BCF7EF1B7B77D4A765AD7C6 /* FMDatabasePool.m in Sources */,
+				BA078C2D90AE723D992054A66EC7EB0E /* FMDatabaseQueue.m in Sources */,
+				3D0F69C4CA35EB6A1F686BA88B19B4F6 /* FMDB-dummy.m in Sources */,
+				8805B7571D8D9CD7841BE503BAEB8D80 /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289D13372DFCD093D43D637298DFC569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2A508B763DDD080725D1C60067431A /* LCHeheViewController-dummy.m in Sources */,
+				823BCA4BA183709B8EF2A3915A608BF7 /* LCHeheViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B0A77A098E7F498D2EF9F98B34AE64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82DF3E66723CD04179A60575219FFFB /* Pods-MengWechat-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5A9E7C1BAD1634608A9C22251F3B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AA2299205DADFF55B7C602DAF95973 /* MASCompositeConstraint.m in Sources */,
+				1B2F3D8DDFDA028A5FBF9D9571A59F20 /* MASConstraint.m in Sources */,
+				067D10BA1984BA3497E9211A65FC2048 /* MASConstraintMaker.m in Sources */,
+				4FF8E2D1193DD5C5E02861F16802AEBD /* MASLayoutConstraint.m in Sources */,
+				712980BAE00F43D62C7D3B63840D3DF4 /* Masonry-dummy.m in Sources */,
+				635C6117BA4F7576BC19343A7965A8BD /* MASViewAttribute.m in Sources */,
+				71B4B31C29150345DDAEAE1C9CCE8F1E /* MASViewConstraint.m in Sources */,
+				D33286950C9CB1F933C6829BD2638007 /* NSArray+MASAdditions.m in Sources */,
+				3FE106A8255FE6832D30B96EC0466D90 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				6FC6586871A6303509B134E0B50AB287 /* View+MASAdditions.m in Sources */,
+				E0AB941C52556A640214FB7024D47C6F /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C360F584B315C2E19EB145BED4C87E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0898688238573F1C145D5434FC3854 /* BabyBluetooth-dummy.m in Sources */,
+				6E76F757CB499A981AFCAB86BCF4EDCC /* BabyBluetooth.m in Sources */,
+				C863F5C0CD241F94DD34E28CAA13AF6D /* BabyCallback.m in Sources */,
+				222668CE11D5B40867A7290751FB672D /* BabyCentralManager.m in Sources */,
+				855D2CDD271102CF9DDA2D64E9EDC6D4 /* BabyOptions.m in Sources */,
+				0F41953E5885862018EDE0266D8DA80D /* BabyPeripheralManager.m in Sources */,
+				1A9CB69AA245B129590CAF6232526E2F /* BabyRhythm.m in Sources */,
+				8CF69BE02A50F0E039F01FD06144DBAD /* BabySpeaker.m in Sources */,
+				39E63D43B08240020B7E3D8407DA319D /* BabyToy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26D4C9D0CAAA62A6D9456CB48AA7BBFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BabyBluetooth;
+			target = 53DE7F1037C06F24A9DF419B9090F28C /* BabyBluetooth */;
+			targetProxy = B5D45D7A5D275B5FECC88A0D67C5D12C /* PBXContainerItemProxy */;
+		};
+		590B88263ADE3107460F9DEFD632771F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LCHeheViewController;
+			target = C3822D063153668F50EE5B6AF9FB5647 /* LCHeheViewController */;
+			targetProxy = F8419B714694E86295A75BE00E3DADD3 /* PBXContainerItemProxy */;
+		};
+		7B148C41954A8D4946F2D7B07EE24194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 53480ED0BE09FF49E34B1702D485CAAB /* Masonry */;
+			targetProxy = 117FCE9B980270F6FA141B383D1EBC78 /* PBXContainerItemProxy */;
+		};
+		7EAD37D82344D5BAB72210858B648149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 9F12FB4A63E20F601CFB2E64A65B57C1 /* FMDB */;
+			targetProxy = 1B4FBDD2AF9C687104A50AF296D47550 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DF361C7F0E1A33CDC225D76B6C05AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3017B2C33F69758FF5D743E3F66F1F1 /* Pods-MengWechat.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1468181597545D7756841DD24F5AF882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB3D14554D824EAF0E21208C0F89D18 /* BabyBluetooth.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BabyBluetooth/BabyBluetooth-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7062E189B7885155C18B012E5FAED2FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01D94F059E34F16EFC5354AA7334D8CE /* Masonry.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F2504AD3772C5FCC9CEC0A55A3756E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C831BC3B8E95EBA11C903B298552E35 /* LCHeheViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LCHeheViewController/LCHeheViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9301799971D8D2568C209ED7C12FF56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB3D14554D824EAF0E21208C0F89D18 /* BabyBluetooth.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BabyBluetooth/BabyBluetooth-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9647E279FE62BB9BC9416FE3E471EC65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C817E2C4F0EBFBFE007FDEC925C154 /* FMDB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B5DD2575FAD817F1839730A3E235B833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43B7A111C774975A1553A8C9E9620B9 /* Pods-MengWechat.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CF7953F66E785E8876EB4D370D777D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D94BEF0AFD00F28DA60904C745B4593B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C831BC3B8E95EBA11C903B298552E35 /* LCHeheViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LCHeheViewController/LCHeheViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F8578676791C85BCA26907BA3F98D6D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01D94F059E34F16EFC5354AA7334D8CE /* Masonry.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FF47917CE680C7EE2DC394CA8BDADC4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C817E2C4F0EBFBFE007FDEC925C154 /* FMDB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7953F66E785E8876EB4D370D777D50 /* Debug */,
+				79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC899FD215914230EB9D8B57AD910D0 /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9647E279FE62BB9BC9416FE3E471EC65 /* Debug */,
+				FF47917CE680C7EE2DC394CA8BDADC4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60E144B73CBA3D652EE75BC0D9A454AE /* Build configuration list for PBXNativeTarget "LCHeheViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D94BEF0AFD00F28DA60904C745B4593B /* Debug */,
+				8F2504AD3772C5FCC9CEC0A55A3756E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C0ACB16D69688779B3B7BA06841D984 /* Build configuration list for PBXNativeTarget "BabyBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1468181597545D7756841DD24F5AF882 /* Debug */,
+				9301799971D8D2568C209ED7C12FF56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6653DB75D219E078020C341A7D83ECE /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8578676791C85BCA26907BA3F98D6D2 /* Debug */,
+				7062E189B7885155C18B012E5FAED2FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54AF0FCD658225B8C7FC465CB2857FA /* Build configuration list for PBXNativeTarget "Pods-MengWechat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10DF361C7F0E1A33CDC225D76B6C05AC /* Debug */,
+				B5DD2575FAD817F1839730A3E235B833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

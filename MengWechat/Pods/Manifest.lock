@@ -1,0 +1,32 @@
+PODS:
+  - BabyBluetooth (0.5.0)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - LCHeheViewController (0.0.1)
+  - Masonry (1.0.1)
+
+DEPENDENCIES:
+  - BabyBluetooth (~> 0.5.0)
+  - FMDB (~> 2.6.2)
+  - LCHeheViewController (from `https://github.com/mlcldh/MengPodTest`)
+  - Masonry (~> 1.0.1)
+
+EXTERNAL SOURCES:
+  LCHeheViewController:
+    :git: https://github.com/mlcldh/MengPodTest
+
+CHECKOUT OPTIONS:
+  LCHeheViewController:
+    :commit: fba4eba68ee23e368b4f8ba3a79c329ae008605c
+    :git: https://github.com/mlcldh/MengPodTest
+
+SPEC CHECKSUMS:
+  BabyBluetooth: dae3d3edc48d13939deebd457bb57d35f64dae19
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  LCHeheViewController: 677488f6e288f80c7a981faea0f623a833e3720f
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+
+PODFILE CHECKSUM: 625163aa0c9bdb37e0c052a7934e0f95ed5c50be
+
+COCOAPODS: 1.1.0.beta.2

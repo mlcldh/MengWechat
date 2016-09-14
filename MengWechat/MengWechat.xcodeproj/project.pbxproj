@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		377D8445991D6D950653727F /* libPods-MengWechat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FD6698A8D33845F97F4D94 /* libPods-MengWechat.a */; };
 		8D0DC1091D87E71200C8F207 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0DC1081D87E71200C8F207 /* main.m */; };
 		8D0DC10C1D87E71200C8F207 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0DC10B1D87E71200C8F207 /* AppDelegate.m */; };
 		8D0DC10F1D87E71200C8F207 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0DC10E1D87E71200C8F207 /* ViewController.m */; };
@@ -15,9 +16,10 @@
 		8D0DC1171D87E71200C8F207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0DC1151D87E71200C8F207 /* LaunchScreen.storyboard */; };
 		8D0DC1221D87E71200C8F207 /* MengWechatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0DC1211D87E71200C8F207 /* MengWechatTests.m */; };
 		8D0DC12D1D87E71200C8F207 /* MengWechatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0DC12C1D87E71200C8F207 /* MengWechatUITests.m */; };
-		8D0DC1411D87E77600C8F207 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0DC13B1D87E77600C8F207 /* libWeChatSDK.a */; };
-		8D0DC1421D87E77600C8F207 /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D0DC13C1D87E77600C8F207 /* read_me.txt */; };
-		8D0DC1431D87E77600C8F207 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D0DC13D1D87E77600C8F207 /* README.txt */; };
+		8DD7E8161D88EB1B00A483E8 /* PViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD7E8151D88EB1B00A483E8 /* PViewController.m */; };
+		8DD7E8191D88F7DA00A483E8 /* SViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD7E8181D88F7DA00A483E8 /* SViewController.m */; };
+		8DD7E81C1D88F87F00A483E8 /* UIViewController+ELPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD7E81B1D88F87F00A483E8 /* UIViewController+ELPresent.m */; };
+		8DD7E81F1D89153600A483E8 /* ELPresentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD7E81E1D89153600A483E8 /* ELPresentedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D554BBFFABBB825EB24406D /* Pods-MengWechat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengWechat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MengWechat/Pods-MengWechat.debug.xcconfig"; sourceTree = "<group>"; };
+		41FD6698A8D33845F97F4D94 /* libPods-MengWechat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MengWechat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D0DC1041D87E71200C8F207 /* MengWechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MengWechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D0DC1081D87E71200C8F207 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D0DC10A1D87E71200C8F207 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,12 +58,15 @@
 		8D0DC1281D87E71200C8F207 /* MengWechatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MengWechatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D0DC12C1D87E71200C8F207 /* MengWechatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MengWechatUITests.m; sourceTree = "<group>"; };
 		8D0DC12E1D87E71200C8F207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D0DC13B1D87E77600C8F207 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		8D0DC13C1D87E77600C8F207 /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
-		8D0DC13D1D87E77600C8F207 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		8D0DC13E1D87E77600C8F207 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
-		8D0DC13F1D87E77600C8F207 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		8D0DC1401D87E77600C8F207 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		8DD7E8141D88EB1B00A483E8 /* PViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PViewController.h; sourceTree = "<group>"; };
+		8DD7E8151D88EB1B00A483E8 /* PViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PViewController.m; sourceTree = "<group>"; };
+		8DD7E8171D88F7DA00A483E8 /* SViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SViewController.h; sourceTree = "<group>"; };
+		8DD7E8181D88F7DA00A483E8 /* SViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SViewController.m; sourceTree = "<group>"; };
+		8DD7E81A1D88F87F00A483E8 /* UIViewController+ELPresent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ELPresent.h"; sourceTree = "<group>"; };
+		8DD7E81B1D88F87F00A483E8 /* UIViewController+ELPresent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ELPresent.m"; sourceTree = "<group>"; };
+		8DD7E81D1D89153600A483E8 /* ELPresentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELPresentedViewController.h; sourceTree = "<group>"; };
+		8DD7E81E1D89153600A483E8 /* ELPresentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELPresentedViewController.m; sourceTree = "<group>"; };
+		ED4B21078D4FE90344E30FE0 /* Pods-MengWechat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengWechat.release.xcconfig"; path = "Pods/Target Support Files/Pods-MengWechat/Pods-MengWechat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D0DC1411D87E77600C8F207 /* libWeChatSDK.a in Frameworks */,
+				377D8445991D6D950653727F /* libPods-MengWechat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,11 +98,12 @@
 		8D0DC0FB1D87E71200C8F207 = {
 			isa = PBXGroup;
 			children = (
-				8D0DC13A1D87E77600C8F207 /* SDKExport */,
 				8D0DC1061D87E71200C8F207 /* MengWechat */,
 				8D0DC1201D87E71200C8F207 /* MengWechatTests */,
 				8D0DC12B1D87E71200C8F207 /* MengWechatUITests */,
 				8D0DC1051D87E71200C8F207 /* Products */,
+				BB3D85575978A65BC1BC5C63 /* Pods */,
+				B850F7D6573F94AC811BD492 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +125,14 @@
 				8D0DC10D1D87E71200C8F207 /* ViewController.h */,
 				8D0DC10E1D87E71200C8F207 /* ViewController.m */,
 				8D0DC1101D87E71200C8F207 /* Main.storyboard */,
+				8DD7E8141D88EB1B00A483E8 /* PViewController.h */,
+				8DD7E8151D88EB1B00A483E8 /* PViewController.m */,
+				8DD7E8171D88F7DA00A483E8 /* SViewController.h */,
+				8DD7E8181D88F7DA00A483E8 /* SViewController.m */,
+				8DD7E81A1D88F87F00A483E8 /* UIViewController+ELPresent.h */,
+				8DD7E81B1D88F87F00A483E8 /* UIViewController+ELPresent.m */,
+				8DD7E81D1D89153600A483E8 /* ELPresentedViewController.h */,
+				8DD7E81E1D89153600A483E8 /* ELPresentedViewController.m */,
 				8D0DC1131D87E71200C8F207 /* Assets.xcassets */,
 				8D0DC1151D87E71200C8F207 /* LaunchScreen.storyboard */,
 				8D0DC1181D87E71200C8F207 /* Info.plist */,
@@ -151,17 +167,21 @@
 			path = MengWechatUITests;
 			sourceTree = "<group>";
 		};
-		8D0DC13A1D87E77600C8F207 /* SDKExport */ = {
+		B850F7D6573F94AC811BD492 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8D0DC13B1D87E77600C8F207 /* libWeChatSDK.a */,
-				8D0DC13C1D87E77600C8F207 /* read_me.txt */,
-				8D0DC13D1D87E77600C8F207 /* README.txt */,
-				8D0DC13E1D87E77600C8F207 /* WechatAuthSDK.h */,
-				8D0DC13F1D87E77600C8F207 /* WXApi.h */,
-				8D0DC1401D87E77600C8F207 /* WXApiObject.h */,
+				41FD6698A8D33845F97F4D94 /* libPods-MengWechat.a */,
 			);
-			path = SDKExport;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB3D85575978A65BC1BC5C63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D554BBFFABBB825EB24406D /* Pods-MengWechat.debug.xcconfig */,
+				ED4B21078D4FE90344E30FE0 /* Pods-MengWechat.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D0DC1311D87E71200C8F207 /* Build configuration list for PBXNativeTarget "MengWechat" */;
 			buildPhases = (
+				E4F56A71C7C2F844C141F1A1 /* [CP] Check Pods Manifest.lock */,
 				8D0DC1001D87E71200C8F207 /* Sources */,
 				8D0DC1011D87E71200C8F207 /* Frameworks */,
 				8D0DC1021D87E71200C8F207 /* Resources */,
+				0BB789A72FE80062020D50C5 /* [CP] Embed Pods Frameworks */,
+				E5325BD5C9B344D98C0D63C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,9 +292,7 @@
 			files = (
 				8D0DC1171D87E71200C8F207 /* LaunchScreen.storyboard in Resources */,
 				8D0DC1141D87E71200C8F207 /* Assets.xcassets in Resources */,
-				8D0DC1421D87E77600C8F207 /* read_me.txt in Resources */,
 				8D0DC1121D87E71200C8F207 /* Main.storyboard in Resources */,
-				8D0DC1431D87E77600C8F207 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,14 +312,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BB789A72FE80062020D50C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MengWechat/Pods-MengWechat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4F56A71C7C2F844C141F1A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E5325BD5C9B344D98C0D63C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MengWechat/Pods-MengWechat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D0DC1001D87E71200C8F207 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DD7E8191D88F7DA00A483E8 /* SViewController.m in Sources */,
 				8D0DC10F1D87E71200C8F207 /* ViewController.m in Sources */,
 				8D0DC10C1D87E71200C8F207 /* AppDelegate.m in Sources */,
 				8D0DC1091D87E71200C8F207 /* main.m in Sources */,
+				8DD7E8161D88EB1B00A483E8 /* PViewController.m in Sources */,
+				8DD7E81C1D88F87F00A483E8 /* UIViewController+ELPresent.m in Sources */,
+				8DD7E81F1D89153600A483E8 /* ELPresentedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +512,7 @@
 		};
 		8D0DC1321D87E71200C8F207 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D554BBFFABBB825EB24406D /* Pods-MengWechat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MengWechat/Info.plist;
@@ -455,6 +529,7 @@
 		};
 		8D0DC1331D87E71200C8F207 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4B21078D4FE90344E30FE0 /* Pods-MengWechat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MengWechat/Info.plist;
